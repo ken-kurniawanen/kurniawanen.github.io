@@ -1,8 +1,8 @@
 html {height:100%; background: white;}
 body {padding:0; margin:0 0 0 50%; background: black; color:#fff; width:50%; min-height:100%; float:right;}
 #left_col {float:left; width:100%; margin-left:-100%; text-align:right; background:white no-repeat right top; color:#000;}
-#left_col_inner {padding:10px; color:black;}
-#right_col {background:black no-repeat left top;}
+#left_col_inner {padding:10px; color:blue;}
+#right_col {background:yellow no-repeat left top;}
 #right_col_inner {padding:10px; color:#fec;}
 
 
