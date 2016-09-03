@@ -1,8 +1,10 @@
 html {height:100%; background-image:url("wallpaper-space-18.jpg");background-size:cover;}
-body {padding:0; margin:0 0 0 50%; background: black; color:#fff; width:50%; min-height:100%; float:right;}
+body {padding:0; margin:0 0 0 50%; background: black; opacity: 0.3;
+    filter: alpha(opacity=30); color:#fff; width:50%; min-height:100%; float:right;}
 #left_col {float:left; width:100%; margin-left:-100%; text-align:right; background:transparent no-repeat right top; color:#000;}
 #left_col_inner {padding:10px; color:white;}
-#right_col {background:black no-repeat left top;}
+#right_col {background:black no-repeat left top;opacity: 0.3;
+    filter: alpha(opacity=30);}
 #right_col_inner {padding:10px; color:#fec;}
 
 
