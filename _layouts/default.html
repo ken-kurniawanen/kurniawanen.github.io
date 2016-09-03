@@ -1,30 +1,45 @@
 <!DOCTYPE html>
 	<html>
-		
 		<head>
 			<title>{{ page.title }}</title>
 			<!-- link to main stylesheet -->
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
 		</head>
 		<body>
+
+		 <div id="left_col">
+  			<div id="left_col_inner">
+   
+ 			</div>
+ 		 </div>
+
+ 		 <div id="right_col">
+  			<div id="right_col_inner">
+   				<nav>
+	    			<ul>
+	        			<li><a href="/">Home</a></li>
+		        		<li><a href="/about">About</a></li>
+	        			<li><a href="/cv">CV</a></li>
+	        			<li><a href="/blog">Blog</a></li>
+	    			</ul>
+				</nav>
+
+				<div class="container">
 			
-			<nav>
-	    		<ul>
-	        		<li><a href="/">Home</a></li>
-		        	<li><a href="/about">About</a></li>
-	        	
-	    		</ul>
-			</nav>
-			<div class="container">
+				{{ content }}
 			
-			{{ content }}
-			
-			</div><!-- /.container -->
+				</div><!-- /.container -->
 			<footer>
 	    		<ul>
 	        		<li><a href="mailto:kurniawanekn@gmail.com">kurniawanekn@gmail.com</a></li>
 	        		<li><a href="https://github.com/kurniawanen">github.com/kurniawanen</a></li>
 				</ul>
 			</footer>
+   
+ 		 </div>
+		 </div>
+
+
+			
 		</body>
 	</html>
