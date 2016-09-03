@@ -12,8 +12,7 @@ nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
-    font-weight: bold;
-    color: #ffffff;
+    font-weight: bold
 
 }
 nav ul li, footer ul li {
@@ -22,10 +21,11 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    color: #333;
+    color: #d3d3d3;
 }
 a:hover {
     text-decoration: underline;
+    color: #ffffff;
 }
 h1 {
     font-size: 3em;
