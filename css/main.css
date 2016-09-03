@@ -1,7 +1,7 @@
 body {
     margin: 60px auto;
     width: 70%;
-    background: #000000 url(kurniawanen.github.io/Best-space-wallpapers-for-desktop.jpg) no-repeat right top;
+    background: #000000 url(kurniawanen.github.io/Best-space-wallpapers-for-desktop.jpg) no-repeat;
     background-size:cover;
 }
 nav ul, footer ul {
