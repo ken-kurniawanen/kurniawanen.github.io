@@ -6,7 +6,6 @@ pages:
   script:
   - gem install jekyll jekyll-gist redcarpet
   - jekyll build -d public/
-  - xvfb-run wkhtmltopdf --user-style-sheet css/resume.css public/KevinLawResume.html public/KevinLawResume.pdf
   artifacts:
     paths:
     - public
