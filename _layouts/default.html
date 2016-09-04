@@ -1,20 +1,42 @@
 <!DOCTYPE html>
-<html>
+	<html>
+		<head>
+			<title>{{ page.title }}</title>
+			<!-- link to main stylesheet -->
+			<link rel="stylesheet" type="text/css" href="/css/main.css">
+		</head>
+		<body>
 
-  {% include head.html %}
+		 <div id="left_col">
+  	
+ 		 </div>
 
-  <body>
+ 		 <div id="right_col">
+  			<div id="right_col_inner">
+   			<nav>
+	    			<ul>
+	        			<li><a href="/">Home</a></li>
+		        		<li><a href="/about">About</a></li>
+	        		
+	    			</ul>
+			</nav>
 
-    {% include header.html %}
+				<div class="container">
+			
+				{{ content }}
+			
+				</div><!-- /.container -->
+			<footer>
+	    		<ul>
+	        		<li><a href="mailto:kurniawanekn@gmail.com">kurniawanekn@gmail.com</a></li>
+	        		<li><a href="https://github.com/kurniawanen">github.com/kurniawanen</a></li>
+				</ul>
+			</footer>
+   
+ 		 </div>
+		 </div>
 
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </div>
 
-    {% include footer.html %}
-
-  </body>
-
-</html>
+			
+		</body>
+	</html>
