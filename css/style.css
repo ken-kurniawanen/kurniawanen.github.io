@@ -102,7 +102,7 @@
 
 		a:hover
 		{
-			color: #E27689;
+			color: #ffffff;
 			border-bottom-color: rgba(255,255,255,0);
 		}
 
@@ -1054,7 +1054,7 @@
 
 							#nav ul li a.active span:before
 							{
-								color: #E27689;
+								color: #ffffff;
 							}
 							
 							
@@ -1735,7 +1735,7 @@
 #markdown-body .k,
 #markdown-body .s,
 #markdown-body .st {
-  color: #fff;
+  color: #a71d5d;
 }
 
 #markdown-body .pds,
