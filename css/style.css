@@ -244,7 +244,7 @@
 
 		ul.icons
 		{
-			cursor: default;
+			cursor: pointer;
 		}	
 		
 			ul.icons li
@@ -264,7 +264,7 @@
 
 		ul.menu
 		{
-			cursor: default;
+			cursor: pointer;
 		}
 		
 			ul.menu li
