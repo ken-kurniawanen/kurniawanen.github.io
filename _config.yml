@@ -1,12 +1,12 @@
 # Site settings
-title: Kevin Law
-email: mail@kevinlaw.info
+title: Kurniawan Eka Nugraha
+email: kurniawanekn@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Personal website and blog for Kevin Law
+  Kurniawan Eka Nugraha's Personal Website
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://www.kevinlaw.info" # the base hostname & protocol for your site
-twitter_username: thatarchguy
-github_username:  thatarchguy
+url: "https://kurniawanen.github.io" # the base hostname & protocol for your site
+twitter_username: kurniawanen
+github_username:  kurniawanen
 permalink: /blog/:title.html
 gems: [redcarpet, jekyll-gist]
 highlighter: Rouge
