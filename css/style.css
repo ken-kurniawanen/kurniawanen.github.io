@@ -316,7 +316,7 @@
 				display: block;
 				border: 0;
 				background: #fff;
-				background: rgba(255,255,255,0.75);
+				background: rgba(255,255,255,0.0);
 				width: 100%;
 				border-radius: 0.35em;
 				padding: 0.75em 1em 0.75em 1em;
@@ -950,7 +950,7 @@
 		
 			#header .icons a
 			{
-				color: #41484c;
+				color: transparent;
 				-moz-transition: color 0.35s ease-in-out;
 				-webkit-transition: color 0.35s ease-in-out;
 				-o-transition: color 0.35s ease-in-out;
@@ -1199,7 +1199,7 @@
 }
 
 #markdown-body a {
-  background: #4183c4;
+  background: transparent;
 }
 
 #markdown-body a:active,
