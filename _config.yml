@@ -1,15 +1,3 @@
-# Site settings
-title: Kurniawan Eka Nugraha
-email: kurniawanekn@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Kurniawan Eka Nugraha's Personal Website
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://kurniawanen.github.io" # the base hostname & protocol for your site
-twitter_username: kurniawanen
-github_username:  kurniawanen
-permalink: /blog/:title.html
-gems: [redcarpet, jekyll-gist]
-highlighter: Rouge
-markdown: redcarpet
-redcarpet:
-  extensions: ["tables"]
+name: Hank Quinlan, Horrible Cop
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
