@@ -8,8 +8,5 @@ url: "https://kurniawanen.github.io" # the base hostname & protocol for your sit
 twitter_username: kurniawanen
 github_username:  kurniawanen
 permalink: /blog/:title.html
-gems: [redcarpet, jekyll-gist]
-highlighter: Rouge
-markdown: redcarpet
-redcarpet:
-  extensions: ["tables"]
+markdown: kramdown
+
