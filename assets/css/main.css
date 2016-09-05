@@ -2636,3 +2636,15 @@
 			}
 
 		}
+
+
+/* Highlight text */
+ht1:hover {
+	color:red;
+}
+ht2:hover {
+	color:yellow;
+}
+ht3:hover {
+	color:green;
+}
